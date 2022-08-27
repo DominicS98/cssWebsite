@@ -1,0 +1,50 @@
+#fonts {
+    font-family: 'Roboto', sans-serif;
+}
+
+a {
+    color: inherit;
+    /* blue colors for links too */
+    text-decoration: inherit;
+    /* no underline */
+}
+body {
+    background-color: #3882f6;;
+}
+.whiteBox{
+   background-color:#E5E7EB;
+   text-align: center;
+   display: flex;
+   justify-content: center;
+   margin: 20em;
+   border-radius: 10px;
+   padding: 7em;
+   margin: 10em;
+}
+.priceTitle{
+    color: #807f7f;
+    letter-spacing: 0.1em;
+    padding: 1.5em 0em;
+    font-weight: 900;
+    border-bottom: rgba(128, 127, 127, 0.5) solid 2px;
+}
+.featureText{
+    margin: 1.5em 0;
+    color: #3882f6;
+}
+.priceImage{
+    padding: 1em;
+}
+.whiteButton{
+    border: #3882f6 solid 1px;
+    border-radius: 10px;
+    padding: 10px 20px;
+    color: #3882f6;
+}
+.blueButton{
+        border-radius: 10px;
+        padding: 10px 20px;
+        background-color: #3882f6;
+        border: #3882f6 solid 1px;
+        color: #E5E7EB;
+}

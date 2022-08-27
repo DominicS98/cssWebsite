@@ -1,0 +1,147 @@
+#fonts {
+    font-family: 'Roboto', sans-serif;
+}
+a {
+    color: inherit;
+    /* blue colors for links too */
+    text-decoration: inherit;
+    /* no underline */
+}
+.headerTabs {
+ display: flex;
+justify-content: space-around;
+margin: 1em 0;
+}
+.headerLogo {
+    font-size: 24px;
+    font-weight: 800;
+    color: #F9FAF8;
+}
+.headerLinks {
+    font-size: 18px;
+    margin: 0 0.5em;
+    color: #E5E7EB;
+}
+.selectedLink{
+    border: 5px solid #3882f6;
+    background-color: #3882f6;
+    padding-top: 2em;
+    border-radius: 10px;
+}
+/*above is the code for the logo and 3 links*/
+.headerTitle{
+    font-size: 48px;
+    font-weight: 900;
+    max-width: 10em;
+    padding-bottom: 0.5em;
+    color: #F9FAF8;
+}
+.headerText {
+    font-size: 18px;
+    max-width: 25em;
+    color: #E5E7EB;
+}
+.titleSection {
+    margin: 7em 20em;
+    display: flex;
+}
+.firstImg{
+    padding-left: 1.5em;
+}
+.headerButton{
+    font-weight: 700;
+    font-size: 1em;
+    border-radius: 10px;
+    padding: 0.5em 1.5em;
+    margin: 1em 0;
+    background-color: #3882f6;
+    color: #E5E7EB;
+    border: 0;
+}
+.topColor{
+    background-color: #1F2937;
+    padding: 0.5em 3em 0.5em;
+}
+/* Above is the style of the top dark blue box*/
+.midTitle{
+    text-align: center;
+    margin: 3em 0;
+    font-size: 36px;
+    font-weight: 800;
+    color: #1F2937;
+}
+.boxes{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10em;   /*check to see next section distance  */
+}
+.blueImage{
+    border: 5px solid #3882f6;
+    padding: 6em;
+    margin: 1em;
+    border-radius: 10%;
+}
+.imageText{
+    text-align: center;
+    width: 10em;
+    padding-left: 2em;
+}
+/* End of the blue boxes area*/
+.midQuote{
+    font-size: 36px;
+    font-weight: 100;
+    font-style: italic;
+    text-align: center;
+    color: #1f2937;
+    max-width: 30em;
+    padding-left: 12em;
+}
+.grayBox{
+        background-color: #E5E7EB;
+        padding: 10em 0em;
+}
+.author{
+    padding-left: 70%;
+    font-size: 26px;
+    font-size: 800;
+    color: #1f2937;
+}
+/*mid grey area ends here */
+.signSection{
+    justify-content: center;
+    display: flex;
+    background-color: #3882f6;
+    margin: 8em 24em;
+    padding: 3em 0;
+    color: #F9FAF8;
+    border-radius: 10px;
+}
+.signText h3{
+    font-size: 26px;
+    font-weight: 800;
+}
+.signSection p{
+    font-size: 20px;
+}
+.signText {
+    margin-right: 15em;
+}
+.signSection button{
+    background-color: #3882f6;
+    border-radius: 10px;
+    color: #F9FAF8;
+    border: #F9FAF8 solid 2px;
+    max-height: 30px;
+    padding: 0em 2em;
+    font-size: 15px;
+}
+/*action blue button ends here*/
+.footer{
+    display: flex;
+    background-color: #1F2937;
+    text-align: center;
+    justify-content: center;
+    color: #F9FAF8;
+    padding: 2em 0;
+}
+/* footer ends here*/ 
